@@ -42,4 +42,19 @@ body {
   border: 1px solid lightgrey;
   border-radius: 2px;
   padding: 4px 3px;
+  font-family: inherit;
+}
+
+.submit-button {
+  border: 1px solid pink;
+  background-color: white;
+  padding: 5px 40px;
+  font-family: inherit;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: pink;
+  border: 1px solid white;
 }
